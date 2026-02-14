@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 My Love For You 💕</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="heart-icon pulse">💕</div>
+            <h1 class="hero-title">To My Dearest Love</h1>
+            <p class="hero-subtitle">Every moment with you is a beautiful memory</p>
+            <div class="hero-hearts">
+                <span class="floating-heart">❤️</span>
+                <span class="floating-heart delay-1">💖</span>
+                <span class="floating-heart delay-2">💗</span>
+            </div>
+            <a href="#gallery" class="cta-button">Explore Our Love Story</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <p class="section-subtitle">Every picture tells our story</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/559153/2026-02-13/0b49efb1-0cc9-4a54-9bc9-3a097658307c.png" alt="Our Memory">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Our First Date 💕</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/559153/2026-02-13/0b49efb1-0cc9-4a54-9bc9-3a097658307c.png" alt="Our Memory">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Adventures Together 🌟</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/559153/2026-02-13/0b49efb1-0cc9-4a54-9bc9-3a097658307c.png" alt="Our Memory">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Laughing Together 😊</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/559153/2026-02-13/0b49efb1-0cc9-4a54-9bc9-3a097658307c.png" alt="Our Memory">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Forever & Always 💖</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons I Love You Section -->
+    <section class="reasons" id="reasons">
+        <div class="section-header">
+            <h2 class="section-title">Reasons I Love You</h2>
+            <p class="section-subtitle">There are millions, but here are a few...</p>
+        </div>
+        <div class="reasons-grid">
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">💫</div>
+                <h3>Your Beautiful Smile</h3>
+                <p>Your smile lights up my entire world and makes every day brighter.</p>
+            </div>
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">💝</div>
+                <h3>Your Kind Heart</h3>
+                <p>The way you care for others shows the beautiful soul you have inside.</p>
+            </div>
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">✨</div>
+                <h3>Your Laughter</h3>
+                <p>The sound of your laughter is my favorite melody in this world.</p>
+            </div>
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">🌹</div>
+                <h3>Your Strength</h3>
+                <p>You inspire me every day with your courage and determination.</p>
+            </div>
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">💕</div>
+                <h3>Your Support</h3>
+                <p>You're always there for me, through thick and thin, my rock.</p>
+            </div>
+            <div class="reason-card" data-aos="fade-up">
+                <div class="reason-icon">🦋</div>
+                <h3>Just Being You</h3>
+                <p>Everything about you is perfect. You are my dream come true.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section class="love-letter" id="letter">
+        <div class="letter-background"></div>
+        <div class="letter-container">
+            <div class="letter-content">
+                <h2 class="letter-title">A Letter From My Heart</h2>
+                <div class="letter-text">
+                    <p class="greeting">My Dearest Love,</p>
+                    <p id="typewriter" class="letter-body"></p>
+                    <p class="signature">Forever Yours,<br><span class="heart-signature">❤️</span> With All My Love</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Date Section -->
+    <section class="special-date" id="date">
+        <div class="date-overlay"></div>
+        <div class="date-content">
+            <h2 class="section-title light">Valentine's Day Countdown</h2>
+            <p class="section-subtitle light">Every second brings us closer to celebrating our love</p>
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            <div class="date-message">
+                <p>💕 February 14th, 2026 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-background"></div>
+        <div class="footer-hearts" id="footerHearts"></div>
+        <div class="footer-content">
+            <div class="final-message">
+                <h2>You Are My Everything</h2>
+                <p class="love-quote">"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."</p>
+                <div class="heart-beat">💖</div>
+            </div>
+            <div class="footer-bottom">
+                <p>Made with 💕 just for you</p>
+                <p class="copyright">© 2026 Our Love Story</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
